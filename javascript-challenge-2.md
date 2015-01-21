@@ -11,6 +11,7 @@ Create a bigDiff(array) function that finds the largest number and second larges
 Create a averageMedian(array) function: Return the average of the 2 or 3 numbers in the middle of the array
 * (2 if the array has an even number of elements)
 * (3 if the array has an odd number of elements).
+
 ##### Example: 
 #### [2, 6, 9, 11] => 7.5
 #### [9, 8, 2, 4, 7] => 4.67
