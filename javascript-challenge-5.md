@@ -16,10 +16,10 @@ Create a averageMedian(array) function: Return the average of the 2 or 3 numbers
 #### [9, 8, 2, 4, 7] => 4.67
 
 ## Challenge 3:
-Create a removeDuplicates(string) function: Returns the string, after removing every second occurrence of a character. The function should not be not case sensitive.
+Create a canBalance(array) function: return true if you can split the array into parts where the sum of one portion equals the sum of the other portion.
 ##### Example: 
-#### "Hello" => "Helo"
-#### "My name is Paul" => "My naeisPul"
+#### [1, 2, 1, 1, 1] => true
+#### [2, 1, 1, 2, 1] => false
 #### [3, 4, 1, 2, 3, 1] => true
 
 ## Challenge 4:
