@@ -5,11 +5,10 @@
 Write an HTML code that corresponds to the following CSS Selectors, and highlight the element(s) that would targeted but that selector. For example, ```p.main-text``` would render:
 
     <p class="main-text">
-        <!-- This one works -->
     </p>
 
 
-* ``` div. ```
+* ``` div.hello.world ```
 * ``` #restaurant-info > div.main-info  ```
 * ``` article.article ```
 * ``` ul > li ```
