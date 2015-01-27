@@ -52,7 +52,7 @@ Using CSS Selectors, how would you change the text color of:
 * Sub title
 * Section Title
 * All numbers
-* Only 1-2 and 11-13
+* Only 1,2,3 and 11,12,13
 * Only 4 and 14
 * Only 14
 * Only 2
