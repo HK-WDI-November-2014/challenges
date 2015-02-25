@@ -54,3 +54,32 @@ function removeDuplicates(string){
 
   return stringArray.join('');
 }
+
+// Challenge 2
+
+// Given [1,2,3,4,5,6,7,8,9],
+// Find the average for [4,5,6]
+
+function averageMedian(array){
+  var length = array.length;
+
+  if (length < 2){
+    return "You need an array with more than 3 items"
+  } else if (length % 2 == 0){
+    // when the array has even numbers of items
+    var middleIndex = Math.floor(length/2);
+    return calcAverage(array.slice(middleIndex-1, middleIndex+1));
+  } else {
+    // when the array has odd numbers of items
+    var middleIndex = Math.floor(length/2);
+    return calcAverage(array.slice(middleIndex-1, middleIndex+2));
+  }
+}
+
+function calcAverage(array){
+  var total = 0;
+  array.forEach(function(item){
+    total += item;
+  })
+  return total / array.length;
+}
